@@ -79,7 +79,7 @@ class BareboneBuilder:
             try:
                 nn:float=eval(n.strip())
                 nnn=" = "+str(nn)+"\n"
-                totals=nn+totals;
+                totals=totals+nn;
                 nnn=str(totals)+nnn
                 self.text_area2.insert(tk.END, nnn,True)
             except:
